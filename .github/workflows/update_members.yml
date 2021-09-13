@@ -1,9 +1,8 @@
 name: Update members
 
 on:
-
   push:
-    branches: [ main ]
+    branches: [main]
 
   workflow_dispatch:
 
@@ -13,8 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: codingpot/github-org-member-manage-action@v1.0.0
+      - uses: codingpot/github-org-member-manage-action@v1.1.1
         with:
           gh_token: ${{ secrets.GH_TOKEN }}
-          mode: write
+          mode: sync
           members_filepath: members.yaml
