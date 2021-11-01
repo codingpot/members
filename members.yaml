@@ -1,22 +1,21 @@
----
 admins:
-  - "deep-diver"
-  - "snowmerak"
-  - "TangoEnSkai"
-  - "nicewook"
-  - "kkweon"
-  - "mrchypark"
+  - deep-diver
+  - snowmerak
+  - TangoEnSkai
+  - nicewook
+  - kkweon
+  - mrchypark
 members:
-  - "sReNcAt"
-  - "Muifig"
-  - "zeroday0619"
-  - "Dev-HyunSang"
-  - "kimdanny"
-  - "minpeter"
-  - "parksunwoo"
-  - "kdrkdrkdr"
-  - "bloomspes"
-  - "parkjh688"
-  - "winterzzi"
-  - "lemon-mint"
-org_name: "codingpot"
+  - sReNcAt
+  - Muifig
+  - zeroday0619
+  - Dev-HyunSang
+  - kimdanny
+  - minpeter
+  - parksunwoo
+  - kdrkdrkdr
+  - bloomspes
+  - parkjh688
+  - winterzzi
+  - lemon-mint
+org_name: codingpot
