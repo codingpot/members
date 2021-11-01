@@ -14,5 +14,8 @@ jobs:
           gh_token: ${{ secrets.GH_TOKEN }}
           mode: write
           members_filepath: members.yaml
+      - uses: creyD/prettier_action@v4.0
+        with:
+          prettier_options: --write {*,**/*}.{md,yml,yaml}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
